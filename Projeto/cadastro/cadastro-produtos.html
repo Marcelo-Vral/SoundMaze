@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-produtos.css">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topicos">
+            <a href="cadastro-clientes.html">Clientes</a>
+            <a href="cadastro-fornecedores.html">Fornecedores</a>
+            <a href="cadastro-produtos.html">Produtos</a>
+            <a href="cadastro-usuarios.html">Usuarios</a>
+        </div>
+        <div class="dados">
+            <h1>Adicionar Produto</h1>
+            <form id="cadastro">
+                <div class="name">
+                    <label for="clipe" class="endereco">Seleione uma opcão</label><br><br>
+                    <input type="radio" id="clipe" name="clipe" value="Clipe">
+                    <label for="sexo-m">Video clipe</label><br><br>
+                    <input type="radio" id="musica" name="clipe" value="Musica">
+                    <label for="sexo-f">Musica</label>
+            </div>
+            <div class="tel">
+                <label for="Telefone" class="telefone">Telefone</label><br>
+                <input type="number" class="numero" required placeholder="(xx) x xxxx-xxxx" maxlength="11"> <br>
+            </div>
+            <div class="local">
+                <label for="Tempo" class="endereco">Tempo de uso do estudio</label><br>
+               <br> <label for="hora-desejada">Hora de entrada</label>
+                <input type="time" id="hora-desejada" name="hora-desejada" required><br><br>
+                <label for="hora-desejada">Hora de Saida  </label>
+                <input type="time" id="hora-desejada" name="hora-desejada" required>
+            </div>
+
+                <input type="submit" class="submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

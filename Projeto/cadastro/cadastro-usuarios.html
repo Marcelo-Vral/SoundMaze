@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-usuarios.css">
+    <title>Cadastro de Usuarios</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topicos">
+            <a href="cadastro-clientes.html">Clientes</a>
+            <a href="cadastro-fornecedores.html">Fornecedores</a>
+            <a href="cadastro-produtos.html">Produtos</a>
+            <a href="cadastro-usuarios.html">Usuarios</a>
+        </div>
+        <div class="dados">
+            <h1>Adicionar Usuario</h1>
+            <form id="cadastro">
+                <div class="name">
+                <label for="Nome" class="nome-completo">Nome Completo</label><br>
+                <input type="text" id="name" class="nome" required placeholder="Digite seu Nome" maxlength="30" autofocus> 
+                <input type="text" id="Sobrenome" class="sobrenome" required placeholder="Digite seu Sobrenome" maxlength="30"> <br>
+            </div>
+            <div class="tel">
+                <label for="Telefone" class="telefone">Telefone</label><br>
+                <input type="number" class="numero" required placeholder="(xx) x xxxx-xxxx" maxlength="11"> <br>
+            </div>
+            <div class="local">
+                <label for="sexo" class="endereco">Sexo</label><br>
+                <input type="radio" id="sexo-m" name="sexo" value="Masculino">
+                <label for="sexo-m">Masculino</label><br>
+                <input type="radio" id="sexo-f" name="sexo" value="Feminino">
+                <label for="sexo-f">Feminio</label>
+            </div>
+
+                <input type="submit" class="submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

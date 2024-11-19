@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro-fornecedores.css">
+    <title>Cadastro dos Fornecedores</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topicos">
+            <a href="cadastro-clientes.html">Clientes</a>
+            <a href="cadastro-fornecedores.html">Fornecedores</a>
+            <a href="cadastro-produtos.html">Produtos</a>
+            <a href="cadastro-usuarios.html">Usuarios</a>
+        </div>
+        <div class="dados">
+            <h1>Adicionar Fornecedores</h1>
+            <form id="cadastro">
+                <div class="name">
+                <label for="Nome" class="nome-completo">Nome da Marca</label><br><br>
+                <input type="text" id="name" class="nome" required placeholder="Nome da Marca" maxlength="30" autofocus> <br><BR></BR>
+                <input type="number" id="cpf" class="sobrenome" required placeholder="CPF ou CNPJ" maxlength="10"> <br>
+            </div>
+            <div class="tel">
+                <label for="Telefone" class="telefone">Telefone</label><br>
+                <input type="number" class="numero" required placeholder="(xx) x xxxx-xxxx" maxlength="11"> <br>
+            </div>
+            <div class="local">
+                <label for="Endereço" class="endereco">Estilo Musical</label><br>
+                <select id="estado" name="estado">
+                    <option value="RAP">RAP</option>
+                    <option value="TRAP">TRAP</option>
+                    <option value="FUNK">FUNK</option>
+                    <option value="OUTRO">OUTRO</option>
+                </select>
+            </div>
+
+                <input type="submit" class="submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>

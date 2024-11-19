@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>cadastro dos clientes</title>
+</head>
+<body>
+    <div class="main">
+        <div class="topicos">
+            <a href="#">Clientes</a>
+            <a href="#">Fornecedores</a>
+            <a href="#">Produtos</a>
+            <a href="#">Usuarios</a>
+        </div>
+        <div class="dados">
+            <h1>Adicionar Clientes</h1>
+            <form id="cadastro">
+                <label for="Nome">Nome Completo</label><br>
+                <input type="text" id="name" required placeholder="Digite seu Nome" maxlength="30" autofocus> 
+                <input type="text" id="Sobrenome" required placeholder="Digite seu Sobrenome" maxlength="30"> <br>
+                <label for="Telefone">Telefone</label><br>
+                <input type="number" id="numero" required placeholder="(xx) x xxxx-xxxx" maxlength="11"> <br>
+                <label for="Endereço">Endereço</label><br>
+                <input type="text" id="rua" required placeholder="Rua" maxlength="50">
+                <input type="number" id="numero" required placeholder="Numero" maxlength="4"><br>
+                <input type="text" id="bairro" required placeholder="Bairro" maxlength="4">
+                <input type="number"id="cep" required placeholder="CEP" maxlength="8"><br>
+                <input type="text" id="complemento"  placeholder="Complemento" maxlength="50"><br>
+                <input type="submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
